@@ -1,0 +1,21 @@
+body {
+  background: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+}
+
+.page-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 5px solid black;
+  padding: 40px 0;
+  > h1 {
+    font-size: 4rem;
+  }
+}
+.subtitle {
+  font-size: 1.5rem;
+}
