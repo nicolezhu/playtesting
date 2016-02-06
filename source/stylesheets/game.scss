@@ -16,6 +16,8 @@
 }
 
 .site-header {
+  margin: 0;
+
   > h1 {
     margin: 0 0 0.5rem 2rem;
   }
@@ -46,7 +48,7 @@
 }
 
 .game-info-section {
-  font-weight: 400;
+  font-size: 1.2rem;
   margin-bottom: 30px;
 }
 
@@ -56,6 +58,7 @@
 }
 
 .playtest {
+  font-size: 1.2rem;
   width: 32%;
   margin: 0 2% 2% 0;;
   background-color: #000;
