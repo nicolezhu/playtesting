@@ -20,7 +20,7 @@ h1 {
   text-align: center;
 }
 p a {
-  color: red;
+  border-bottom: 2px solid black;
 }
 
 .page-wrap {
@@ -35,8 +35,7 @@ p a {
 .button {
   background: black;
   color: white;
-  padding: 1rem 3rem;
-  border-radius: 3rem;
+  padding: 0.75rem 2rem;
   font-weight: bold;
   font-family: inherit;
   font-size: 1.5rem;
