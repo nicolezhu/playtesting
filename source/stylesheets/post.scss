@@ -4,18 +4,36 @@
 }
 
 .post-game-form {
-  label {
+  > div > label,
+  h4 {
     display: block;
     margin: 0 0 0.2rem 0;
     font-size: 1.2rem;
   }
-  input[type="text"] {
+  input[type="text"],
+  textarea {
     width: 100%;
     border: 2px solid black;
     font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
     padding: 1rem;
+  }
+  textarea {
+    min-height: 150px;
   }
   > div {
     margin: 0 0 2rem 0;
+    > div {
+      margin: 0.6rem 0;
+    }
   }
+}
+
+.form-note {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
 }

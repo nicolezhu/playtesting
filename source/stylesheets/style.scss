@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background: white;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -14,14 +13,30 @@ a {
   text-decoration: none;
   color: inherit;
 }
+h1 {
+  letter-spacing: -1px;
+}
+.center {
+  text-align: center;
+}
 
 .page-wrap {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.button {
+.link-button {
   border-bottom: 2px solid black;
+}
+.button {
+  background: black;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: 0;
 }
 
 .site-header {
