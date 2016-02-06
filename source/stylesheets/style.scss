@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background: white;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -14,19 +13,46 @@ a {
   text-decoration: none;
   color: inherit;
 }
+h1 {
+  letter-spacing: -1px;
+}
+.center {
+  text-align: center;
+}
+p a {
+  color: red;
+}
 
 .page-wrap {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.button {
+.link-button {
+  color: black;
   border-bottom: 2px solid black;
+}
+.button {
+  background: black;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: 0;
+  display: inline-block;
+  > span {
+    display: block;
+    font-size: 70%;
+    margin: 0.3rem 0;
+  }
 }
 
 .site-header {
   border-bottom: 5px solid black;
-  padding: 40px 0;
+  padding: 2rem 0;
+  margin: 0 0 5rem 0;
   > h1 {
     font-size: 4rem;
     margin: 0 0 0.5rem 0;
@@ -40,6 +66,7 @@ a {
 }
 .subtitle {
   font-size: 1.5rem;
+  margin: 0 0 2rem 0;
 }
 
 .game-list {
@@ -50,6 +77,15 @@ a {
 .game {
   display: flex;
   align-items: center;
+  font-size: 1.5rem;
+  margin: 0 0 2rem 0;
+}
+.about-game {
+  margin: 0 0 1rem 0;
+  flex: 1;
+  > p {
+    margin: 0 0 1rem 0;
+  }
 }
 
 .game-classification {
@@ -57,8 +93,63 @@ a {
   height: 250px;
   background: black;
   margin-right: 30px;
+  padding: 10px;
+  > img {
+    float: left;
+    width: 33.33%;
+    opacity: 0.3;
+  }
+  &.driving {
+    img[src*="-driving"] {
+      opacity: 1;
+    }
+  }
+  &.hiddenobject {
+    img[src*="-hiddenobject"] {
+      opacity: 1;
+    }
+  }
+  &.match3 {
+    img[src*="-match3"] {
+      opacity: 1;
+    }
+  }
+  &.multiplayer {
+    img[src*="-multiplayer"] {
+      opacity: 1;
+    }
+  }
+  &.realtime {
+    img[src*="-realtime"] {
+      opacity: 1;
+    }
+  }
+  &.rpg {
+    img[src*="-rpg"] {
+      opacity: 1;
+    }
+  }
+  &.shooter {
+    img[src*="-shooter"] {
+      opacity: 1;
+    }
+  }
+  &.strategy {
+    img[src*="-strategy"] {
+      opacity: 1;
+    }
+  }
+  &.turnbased {
+    img[src*="-turnbased"] {
+      opacity: 1;
+    }
+  }
 }
 
+.currently-playing {
+  font-size: 1rem;
+  margin: 2rem 0 0 0;
+}
 .avatar {
   width: 20px;
   height: 20px;
