@@ -64,6 +64,7 @@ configure :build do
   # activate :minify_javascript
 
   page "/post", :layout => "chillheader"
+  page "/game", :layout=> "game"
 
   # Enable cache buster
   activate :asset_hash
