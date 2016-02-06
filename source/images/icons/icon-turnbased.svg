@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-turnbased</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-turnbased" sketch:type="MSArtboardGroup" fill="#000000">
+            <path d="M47.164,61.73 C39.348,61.609 33.028,55.222 33.028,47.382 C33.028,39.464 39.469,33.023 47.387,33.023 C55.305,33.023 61.746,39.464 61.746,47.382 L73.77,47.382 C73.77,32.832 61.934,21 47.383,21 C32.836,21 21,32.836 21,47.382 C21,61.855 32.715,73.64 47.16,73.761 L47.242,88.214 L71.039,67.925 L47.164,47.378 L47.164,61.73 Z" id="Page-1" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
