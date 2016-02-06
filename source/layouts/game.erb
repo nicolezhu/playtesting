@@ -9,12 +9,16 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
 
+    <%= stylesheet_link_tag "style" %>
     <%= stylesheet_link_tag "game" %>
   </head>
 
   <body class="<%= page_classes %>">
-
     <div class="page-wrap">
+      <header class="site-header chill-header">
+        <h1>Playtesting</h1>
+      </header>
+
       <%= yield %>
     </div>
 
