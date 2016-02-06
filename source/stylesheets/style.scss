@@ -93,6 +93,57 @@ p a {
   height: 250px;
   background: black;
   margin-right: 30px;
+  padding: 10px;
+  > img {
+    float: left;
+    width: 33.33%;
+    opacity: 0.3;
+  }
+  &.driving {
+    img[src*="-driving"] {
+      opacity: 1;
+    }
+  }
+  &.hiddenobject {
+    img[src*="-hiddenobject"] {
+      opacity: 1;
+    }
+  }
+  &.match3 {
+    img[src*="-match3"] {
+      opacity: 1;
+    }
+  }
+  &.multiplayer {
+    img[src*="-multiplayer"] {
+      opacity: 1;
+    }
+  }
+  &.realtime {
+    img[src*="-realtime"] {
+      opacity: 1;
+    }
+  }
+  &.rpg {
+    img[src*="-rpg"] {
+      opacity: 1;
+    }
+  }
+  &.shooter {
+    img[src*="-shooter"] {
+      opacity: 1;
+    }
+  }
+  &.strategy {
+    img[src*="-strategy"] {
+      opacity: 1;
+    }
+  }
+  &.turnbased {
+    img[src*="-turnbased"] {
+      opacity: 1;
+    }
+  }
 }
 
 .currently-playing {

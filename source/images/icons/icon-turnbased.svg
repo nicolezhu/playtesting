@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
-    <title>icon-turnbased</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="icon-turnbased" sketch:type="MSArtboardGroup" fill="#000000">
-            <path d="M47.164,61.73 C39.348,61.609 33.028,55.222 33.028,47.382 C33.028,39.464 39.469,33.023 47.387,33.023 C55.305,33.023 61.746,39.464 61.746,47.382 L73.77,47.382 C73.77,32.832 61.934,21 47.383,21 C32.836,21 21,32.836 21,47.382 C21,61.855 32.715,73.64 47.16,73.761 L47.242,88.214 L71.039,67.925 L47.164,47.378 L47.164,61.73 Z" id="Page-1" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
-</svg>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><title>icon-turnbased</title><desc>Created with Sketch.</desc><path d="M47.164 61.73c-7.816-.121-14.136-6.508-14.136-14.348 0-7.918 6.441-14.359 14.359-14.359s14.359 6.441 14.359 14.359h12.024c0-14.55-11.836-26.382-26.387-26.382-14.547 0-26.383 11.836-26.383 26.382 0 14.473 11.715 26.258 26.16 26.379l.082 14.453 23.797-20.289-23.875-20.547v14.352z" sketch:type="MSShapeGroup" fill="#fff"/></svg>
