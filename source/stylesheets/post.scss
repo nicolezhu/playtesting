@@ -1,0 +1,21 @@
+.page-header {
+  font-size: 2.5rem;
+  padding: 3rem 0;
+}
+
+.post-game-form {
+  label {
+    display: block;
+    margin: 0 0 0.2rem 0;
+    font-size: 1.2rem;
+  }
+  input[type="text"] {
+    width: 100%;
+    border: 2px solid black;
+    font-family: inherit;
+    padding: 1rem;
+  }
+  > div {
+    margin: 0 0 2rem 0;
+  }
+}
