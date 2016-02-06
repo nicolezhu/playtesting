@@ -10,12 +10,17 @@
     <title><%= current_page.data.title || "The Middleman" %></title>
 
     <%= stylesheet_link_tag "style" %>
+    <%= stylesheet_link_tag "post" %>
   </head>
 
   <body class="<%= page_classes %>">
 
     <div class="page-wrap">
-      <h1>did this work yes</h1>
+
+      <header class="site-header chill-header">
+        <h1>Playtesting</h1>
+      </header>
+
       <%= yield %>
     </div>
 

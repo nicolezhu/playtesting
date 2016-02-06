@@ -31,6 +31,12 @@ a {
     font-size: 4rem;
     margin: 0 0 0.5rem 0;
   }
+  &.chill-header {
+    padding: 10px 0 5px;
+    > h1 {
+      font-size: 1.5rem;
+    }
+  }
 }
 .subtitle {
   font-size: 1.5rem;
