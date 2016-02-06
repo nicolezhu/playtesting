@@ -46,6 +46,12 @@ p a {
     font-size: 70%;
     margin: 0.3rem 0;
   }
+  &:hover,
+  &:focus {
+    background: white;
+    color: black;
+    box-shadow: 0 0 0 5px black;
+  }
 }
 
 .site-header {
@@ -155,4 +161,11 @@ p a {
   display: inline-block;
   background: black;
   vertical-align: middle;
+}
+
+.site-footer {
+  background: black;
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
 }
