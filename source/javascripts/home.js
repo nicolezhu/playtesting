@@ -3,6 +3,8 @@ var superMessage = document.getElementById('super-message');
 
 for (var i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', function(event) {
+        event.preventDefault();
+
         superMessage.classList.add("show");
 
         setTimeout(function() {
