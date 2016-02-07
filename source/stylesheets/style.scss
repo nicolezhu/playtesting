@@ -100,7 +100,7 @@ p a {
   padding: 50px 0;
 }
 
-.game {
+.a-game {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
@@ -237,9 +237,26 @@ p a {
   }
 }
 
+.playtesters {
+  list-style: none;
+  li {
+    clear: both;
+    margin: 0 0 0.75rem 0;
+  }
+}
+.actions {
+  float: right;
+}
+
 .site-footer {
   background: black;
   color: white;
   padding: 3rem 0;
   text-align: center;
+}
+
+.clearfix:after {
+   display: block;
+   content: "";
+   clear: both;
 }
