@@ -5,21 +5,29 @@
 .user-header {
   text-align: center;
   margin-top: -100px;
+  position: relative;
   h1 {
     font-size: 4rem;
   }
 }
+#user-message-button {
+  position: absolute;
+  right: 0;
+  top: 110px;
+}
 
 .user-description {
-  font-weight: normal;
+  margin-bottom: 3rem;
 }
 
 .user-section {
   text-align: center;
   margin-bottom: 2em;
   > p {
-    font-weight: normal;
     margin: 0 0 0.2em 0;
+  }
+  > h3 {
+    font-size: 2rem;
   }
 }
 
@@ -89,4 +97,69 @@
     opacity: 0;
     transform: scale(1.5);
   }
+}
+
+.messaging-popup {
+  position: fixed;
+  top: 50px;
+  left: 10%;
+  right: 10%;
+  bottom: 50px;
+  background: black;
+  color: white;
+  padding: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  body.messages-open & {
+    opacity: 1;
+    visibility: visible;
+  }
+  h2 {
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+#close-button {
+  float: right;
+  font-size: 3rem;
+  position: relative;
+  top: -22px;
+  cursor: pointer;
+}
+
+.message-list {
+  list-style: none;
+  padding: 1rem;
+  > li {
+    width: 80%;
+    display: flex;
+    margin: 0 0 1rem 0;
+    .avatar {
+      width: 60px;
+      height: 60px;
+      margin-right: 10px;
+    }
+    .message {
+      flex: 1;
+    }
+    &:nth-child(2n) {
+      margin-left: 20%;
+      .avatar {
+        order: 2;
+        margin-right: 0;
+        margin-left: 10px;
+      }
+      .message {
+        text-align: right;
+      }
+    }
+  }
+}
+.message {
+  background: white;
+  color: black;
+  padding: 1rem;
 }
