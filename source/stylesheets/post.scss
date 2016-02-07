@@ -37,3 +37,9 @@
   padding: 2rem;
   font-size: 2rem;
 }
+
+#submit {
+  &:hover {
+    cursor: pointer;
+  }
+}
