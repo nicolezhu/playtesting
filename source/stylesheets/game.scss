@@ -20,11 +20,9 @@
   border-radius: 5px;
   color: #000;
   padding: 10px;
-
   p {
     margin: 0;
   }
-
   &:hover {
     cursor: pointer;
   }
@@ -81,15 +79,16 @@
 .game-forum-container {
 }
 .chat {
-  width: 48%;
+  width: 75%;
   margin-top: 1.25rem;
   clear: both;
   float: left;
   &:first-child {
     margin-top: 0;
   }
-  &.new {
+  &:nth-child(2n) {
     float: right;
+    text-align: right;
   }
 }
 
@@ -98,23 +97,29 @@
 }
 
 .chat-time {
-  color: #999;
-  font-weight: 400;
 }
 
 .chat-message {
-  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1;
 }
 
 #chat-box {
   width: 100%;
   border: 2px solid black;
-  padding: 10px;
+  font-family: inherit;
+  font-size: 1.4rem;
+  padding: 1rem;
+  font-weight: bold;
 }
 
 .event-date-container {
   text-align: center;
-  margin-right: 2em;
+  margin-right: 1.5rem;
+  line-height: 1;
+  background: white;
+  color: black;
+  padding: 1rem;
 }
 
 .event-list {
@@ -125,7 +130,13 @@
   display: flex;
   align-items: center;
   margin-bottom: 1.5em;
-  margin-left: 1em;
+  margin-left: 0;
+  background: black;
+  color: white;
+  border: 2px solid black;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .event-day, .event-month {
@@ -143,8 +154,6 @@
     font-size: 1.3rem;
   }
   .event-city {
-    color: #999;
     font-size: 1rem;
-    font-weight: 400;
   }
 }
