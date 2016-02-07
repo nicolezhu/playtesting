@@ -1,32 +1,14 @@
-body.game {
-  display: block;  
-}
-.page-wrap {
-  max-width: none;
-  width: 100%;
-}
-.game-all-wrap {
-  max-width: 900px;
-  margin: 50px auto;
-}
-
 .game-header {
   align-items: center;
   padding: 3rem;
   background-color: black;
   color: #fff;
+  margin: 0 0 3rem 0;
   > h1 {
     font-size: 5.25rem;
   }
   .button {
     float: right;
-  }
-}
-
-.site-header {
-  margin: 0;
-  > h1 {
-    margin: 0 0 0.5rem 2rem;
   }
 }
 
@@ -37,11 +19,6 @@ body.game {
   h2 {
     margin: 0 0 0.2rem 0;
   }
-}
-
-.game-info-section {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
 }
 
 .playtest-container {
