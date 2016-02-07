@@ -57,3 +57,35 @@
     max-width: 100%;
   }
 }
+
+.super-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  opacity: 0;
+  background: rgba(white, 0.9);
+  pointer-events: none;
+  > div {
+    width: 100%;
+  }
+  &.show {
+    transform: scale(1);
+    animation: go-big 1s;
+  }
+}
+@keyframes go-big {
+  90% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
