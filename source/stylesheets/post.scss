@@ -1,9 +1,4 @@
-.page-header {
-  font-size: 2.5rem;
-  padding: 3rem 0;
-}
-
-.post-game-form {
+.form-form {
   > div > label,
   h4 {
     display: block;
@@ -11,13 +6,17 @@
     font-size: 1.2rem;
   }
   input[type="text"],
-  textarea {
+  textarea,
+  input[type="number"] {
     width: 100%;
     border: 2px solid black;
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
     padding: 1rem;
+  }
+  input[type="number"] {
+    width: 180px;
   }
   textarea {
     min-height: 150px;
