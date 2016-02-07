@@ -1,9 +1,4 @@
 $(document).ready(function() {
-  $('#show-forum').on('click', function() {
-    $('#show-forum').hide();
-    $('.game-forum-container').show();
-  });
-
   $('#chat-box').on('keypress', function(e) {
     if (e.keyCode == 13) {
       e.preventDefault();
