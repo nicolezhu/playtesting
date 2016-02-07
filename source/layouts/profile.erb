@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title><%= current_page.data.title || "I Want In." %></title>
+
+  <%= stylesheet_link_tag "style" %>
+  <%= stylesheet_link_tag "profile" %>
+</head>
+
+<body class="<%= page_classes %>">
+
+  <div class="page-wrap">
+
+    <%= partial "partials/chill_header" %>
+
+    <%= yield %>
+
+    <%= partial "partials/footer" %>
+
+  </div>
+
+</body>
+
+</html>

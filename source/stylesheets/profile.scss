@@ -1,0 +1,30 @@
+.user-header {
+  text-align: center;
+}
+
+.user-description {
+  font-weight: normal;
+}
+
+.user-section {
+  text-align: center;
+
+  > p {
+    font-weight: normal
+  }
+}
+
+.test-game-button {
+  text-align: center;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  padding: 10px;
+
+  p {
+    margin: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
