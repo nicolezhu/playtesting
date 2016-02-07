@@ -53,3 +53,41 @@
 .feedback {
   margin: 0 0 1rem 0;
 }
+
+.game-forum {
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+}
+.game-forum-container {
+}
+.chat {
+  width: 48%;
+  margin-top: 1.25rem;
+  clear: both;
+  float: left;
+  &:first-child {
+    margin-top: 0;
+  }
+  &.new {
+    float: right;
+  }
+}
+
+.chat-info {
+  font-size: 0.8rem;
+}
+
+.chat-time {
+  color: #999;
+  font-weight: 400;
+}
+
+.chat-message {
+  font-weight: 400;
+}
+
+#chat-box {
+  width: 100%;
+  border: 2px solid black;
+  padding: 10px;
+}
