@@ -1,5 +1,10 @@
+.site-header {
+  margin: 0;
+}
+
 .user-header {
   text-align: center;
+  margin-top: -100px;
 }
 
 .user-description {
@@ -8,23 +13,47 @@
 
 .user-section {
   text-align: center;
+  margin-bottom: 2em;
 
   > p {
-    font-weight: normal
+    font-weight: normal;
+    margin: 0 0 0.2em 0;
   }
 }
 
-.test-game-button {
-  text-align: center;
-  font-size: 1.25rem;
-  border-radius: 5px;
-  padding: 10px;
+.underline {
+  border-bottom: 1px solid black;
+}
 
-  p {
-    margin: 0;
-  }
+.center {
+  margin-bottom: 2em;
+}
 
-  &:hover {
-    cursor: pointer;
+.user-avatar {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: normal;
+  width: 25%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.avatar-img {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+  background: #f0f0f0;
+  width: 100%;
+  margin-bottom: 1em;
+  border: 5px solid white;
+}
+
+.background {
+  width: 100%;
+
+  img {
+    max-width: 100%;
   }
 }
