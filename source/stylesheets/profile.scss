@@ -31,6 +31,23 @@
   }
 }
 
+.user-trophies {
+  margin-bottom: 4em;
+}
+
+.trophy {
+  width: 10%;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.locked {
+  opacity: 0.3;
+}
+
 .underline {
   border-bottom: 1px solid black;
 }
