@@ -65,7 +65,8 @@ p a {
     font-size: 1rem;
     padding: 0.2rem 0.8rem;
     &:hover,
-    &:focus {
+    &:focus,
+    &.in {
       box-shadow: 0 0 0 2px black;
     }
   }
@@ -234,6 +235,17 @@ p a {
     content: "";
     display: block;
     clear: both;
+  }
+}
+
+.tabs {
+  margin: 0 0 1rem 0;
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      margin-right: 0.5rem;
+    }
   }
 }
 
