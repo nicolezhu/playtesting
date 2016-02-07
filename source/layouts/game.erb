@@ -1,27 +1,29 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
 
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<head>
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+  <meta charset="utf-8">
 
-    <%= stylesheet_link_tag "style" %>
-    <%= stylesheet_link_tag "game" %>
-    <%= javascript_include_tag  "jquery", "script" %>
-  </head>
+  <title><%= current_page.data.title || "I Want In." %></title>
 
-  <body class="<%= page_classes %>">
-    <div class="page-wrap">
-      <header class="site-header chill-header">
-        <h1>Playtesting</h1>
-      </header>
+  <%= stylesheet_link_tag "style" %>
+  <%= stylesheet_link_tag "game" %>
 
-      <%= yield %>
-    </div>
+</head>
 
-  </body>
+<body class="<%= page_classes %>">
+
+  <div class="page-wrap">
+
+    <header class="site-header chill-header">
+      <h1>Playtesting</h1>
+    </header>
+
+    <%= yield %>
+
+  </div>
+
+</body>
+
 </html>
