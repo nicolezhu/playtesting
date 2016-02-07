@@ -110,11 +110,20 @@
   &:nth-child(2n) {
     float: right;
   }
+
+  &.new {
+    float: right;
+  }
+
+}
+
+.chat-info {
+  font-size: 0.8rem;
 }
 
 .chat-time {
-  display: block;
-  font-size: 0.8rem;
+  color: #999;
+  font-weight: 400;
 }
 
 .chat-message {

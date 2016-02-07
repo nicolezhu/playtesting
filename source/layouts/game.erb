@@ -2,14 +2,11 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
-
   <title><%= current_page.data.title || "I Want In." %></title>
 
   <%= stylesheet_link_tag "style" %>
   <%= stylesheet_link_tag "game" %>
-
 </head>
 
 <body class="<%= page_classes %>">
@@ -23,7 +20,7 @@
     <%= partial "partials/footer" %>
 
   </div>
-
+  <%= javascript_include_tag "jquery", "script" %>
 </body>
 
 </html>
