@@ -7,4 +7,6 @@ $(document).ready(function() {
       $('#chat-box').val('');
     }
   });
+
+  $('#chat-box').focus();
 });

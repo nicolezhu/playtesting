@@ -116,6 +116,7 @@
 #chat-box {
   width: 100%;
   border: 2px solid black;
+  padding: 10px;
 }
 
 .event-date-container {
@@ -131,7 +132,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 1.5em;
-  margin-left: 0;
+  margin-left: 1em;
 }
 
 .event-day, .event-month {
