@@ -64,6 +64,10 @@ p a {
   &.button-mini {
     font-size: 1rem;
     padding: 0.2rem 0.8rem;
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 0 2px black;
+    }
   }
 }
 
@@ -218,6 +222,11 @@ p a {
     background: white;
     display: inline-block;
     padding: 0 0.75rem;
+  }
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
   }
 }
 
