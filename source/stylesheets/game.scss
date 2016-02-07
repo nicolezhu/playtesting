@@ -79,16 +79,15 @@
 .game-forum-container {
 }
 .chat {
-  width: 75%;
+  width: 48%;
   margin-top: 1.25rem;
   clear: both;
   float: left;
   &:first-child {
     margin-top: 0;
   }
-  &:nth-child(2n) {
+  &.new {
     float: right;
-    text-align: right;
   }
 }
 
@@ -97,20 +96,28 @@
 }
 
 .chat-time {
+  color: #999;
+  font-weight: 400;
 }
 
 .chat-message {
-  font-size: 1.2rem;
-  line-height: 1;
+  font-size: 1rem;
+  font-weight: 400;
 }
+
+// #chat-box {
+//   width: 100%;
+//   border: 2px solid black;
+//   font-family: inherit;
+//   font-size: 1rem;
+//   padding: 1rem;
+//   font-weight: bold;
+// }
 
 #chat-box {
   width: 100%;
   border: 2px solid black;
-  font-family: inherit;
-  font-size: 1.4rem;
-  padding: 1rem;
-  font-weight: bold;
+  padding: 10px;
 }
 
 .event-date-container {
