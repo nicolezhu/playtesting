@@ -1,10 +1,10 @@
 .game-header {
-  display: flex;
   align-items: center;
-  padding: 3rem;
+  padding: 2rem 3rem 1rem;
   background-color: black;
   color: #fff;
   margin: 0 0 3rem 0;
+  position: relative;
 }
 
 .game-maker-info {
@@ -14,7 +14,9 @@
 }
 
 .test-game-button {
-  margin-left: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
   font-size: 1.25rem;
   background-color: #fff;
   border-radius: 5px;
@@ -30,6 +32,12 @@
 
 .created-by {
   display: block;
+  margin: 0 0 3rem 0;
+}
+.game-types {
+  img {
+    width: 40px;
+  }
 }
 
 .game-info {
