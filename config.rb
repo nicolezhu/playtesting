@@ -67,6 +67,7 @@ configure :build do
   page "/post", :layout => "post"
   page "/game", :layout=> "game"
   page "/signup", :layout=> "signup"
+  page "/dashboard", :layout=> "dashboard"
 
   # Enable cache buster
   activate :asset_hash

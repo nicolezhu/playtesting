@@ -61,6 +61,10 @@ p a {
     color: black;
     box-shadow: 0 0 0 5px black;
   }
+  &.button-mini {
+    font-size: 1rem;
+    padding: 0.2rem 0.8rem;
+  }
 }
 
 .site-header {
@@ -201,6 +205,19 @@ p a {
   100% {
     opacity: 0;
     transform: scale(1.5);
+  }
+}
+
+.module {
+  border: 2px solid black;
+  padding: 0 1rem 1rem 1rem;
+  margin: 0 0 3rem 0;
+  > h2:first-child {
+    position: relative;
+    top: -1rem;
+    background: white;
+    display: inline-block;
+    padding: 0 0.75rem;
   }
 }
 

@@ -1,0 +1,43 @@
+.dashboard-header {
+  text-align: center;
+  padding: 3rem 0;
+  position: relative;
+  margin: 0 0 2rem 0;
+  > h1 {
+    font-size: 3.5rem;
+  }
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: repeating-linear-gradient(
+  		-45deg,
+  		black,
+  		black 25%,
+  		white 25%,
+  		white 50%,
+  		black 50%
+  	) top left fixed;
+    // Then just define how big the background should be
+  	background-size: 10px 10px;
+  }
+}
+.dashboard-subtitle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+
+.players-in-queue {
+  list-style: none;
+  li {
+    clear: both;
+    margin: 0 0 0.75rem 0;
+  }
+}
+.actions {
+  float: right;
+}
