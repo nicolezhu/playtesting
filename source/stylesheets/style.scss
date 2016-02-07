@@ -20,7 +20,7 @@ h1 {
   text-align: center;
 }
 p a {
-  color: red;
+  border-bottom: 2px solid black;
 }
 
 .page-wrap {
@@ -35,8 +35,7 @@ p a {
 .button {
   background: black;
   color: white;
-  padding: 1rem 3rem;
-  border-radius: 3rem;
+  padding: 0.75rem 2rem;
   font-weight: bold;
   font-family: inherit;
   font-size: 1.5rem;
@@ -46,6 +45,13 @@ p a {
     display: block;
     font-size: 70%;
     margin: 0.3rem 0;
+  }
+  &:hover,
+  &:focus,
+  &.in {
+    background: white;
+    color: black;
+    box-shadow: 0 0 0 5px black;
   }
 }
 
@@ -156,4 +162,41 @@ p a {
   display: inline-block;
   background: black;
   vertical-align: middle;
+}
+
+.super-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  opacity: 0;
+  background: rgba(white, 0.9);
+  pointer-events: none;
+  > div {
+    width: 100%;
+  }
+  &.show {
+    opacity: 1;
+    > div {
+      transform: scale(0.5);
+      animation: go-big 1s;
+    }
+  }
+}
+@keyframes go-big {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.site-footer {
+  background: black;
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
 }
