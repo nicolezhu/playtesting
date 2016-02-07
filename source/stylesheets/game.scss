@@ -1,13 +1,15 @@
-<<<<<<< HEAD
 .game {
   margin: 0;
 }
 
-=======
 body.game {
-  display: block;  
+  display: block;
 }
->>>>>>> 38ce077439a1b152224a00b6e795d361eb980581
+
+.game-all-wrap ul li {
+  margin-left: 2em;
+}
+
 .page-wrap {
   max-width: none;
   width: 100%;
