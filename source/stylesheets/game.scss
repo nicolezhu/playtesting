@@ -102,15 +102,39 @@
   width: 100%;
 }
 
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
+.event-date-container {
+  text-align: center;
+  margin-right: 2em;
+}
+
+.event-list {
+  list-style: none;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.event-day, .event-month {
+  font-size: 1rem;
+}
+
+.event-date {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.event-info {
+  p {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+
+  .event-city {
+    color: #999;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}

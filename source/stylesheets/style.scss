@@ -254,3 +254,9 @@ p a {
   padding: 3rem 0;
   text-align: center;
 }
+
+.clearfix:after {
+   display: block;
+   content: "";
+   clear: both;
+}
